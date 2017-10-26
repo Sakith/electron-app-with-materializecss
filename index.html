@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="./css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="./css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/material-icons.css">
+    <!--Import your style sheets here-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <meta charset="UTF-8">
+    <title>Electron with MaterializeCSS</title>
+</head>
+
+<body>
+
+	<!-- Navbar goes here -->
+ 	<nav>
+    <div class="nav-wrapper deep-purple darken-4" style="padding-left: 10px">
+      <a href="#!" class="brand-logo"><i class="material-icons">star</i>Electron + MaterializeCSS</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html"><i class="material-icons">search</i></a></li>
+        <li><a href="badges.html"><i class="material-icons">view_module</i></a></li>
+        <li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+        <li><a href="mobile.html"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+    </div>
+    </nav>
+    <!-- Page Layout here -->
+    <div class="row">
+
+      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+        <!-- Grey navigation panel
+
+              This content will be:
+          3-columns-wide on large screens,
+          4-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+
+        <ul class="collapsible" data-collapsible="accordion">
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons white">dashboard</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">place</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">whatshot</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">add_a_photo</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">alarm</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">attach_file</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">book</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header"><i class="material-icons">code</i>Lorem ipsum</div>
+		      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+		    </li>
+		</ul>
+
+      </div>
+
+      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
+        <!-- Teal page content
+
+              This content will be:
+          9-columns-wide on large screens,
+          8-columns-wide on medium screens,
+          12-columns-wide on small screens  -->
+                   
+
+      </div>
+
+    </div>
+
+    <div class="fixed-action-btn vertical">
+    <a class="btn-floating btn-large deep-purple darken-4">
+      <i class="material-icons">share</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+    </div>
+
+</body>
+
+<script>
+    window.$ = window.jQuery = require('./js/libs/jquery.min.js');
+</script>
+<script src="./js/libs/hammer.min.js" onload="window.Hammer = module.exports;"></script>
+<script src="./js/libs/materialize.min.js"></script>
+<!--Import your js scripts here  -->
+<script src="./js/app.js"></script>
+
+</html>
