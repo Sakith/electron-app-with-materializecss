@@ -2,6 +2,8 @@
 
 I use this as a starting point for electron apps with nice material design components from materializecss, with some ideas from [electron-quick-start](https://github.com/electron/electron-quick-start) and [Electralize](https://github.com/CBinet/Electralize).
 
+![Screen capture](screen_capture.png "Screen capture.")
+
 ## License
 
 Copyright 2017 Sergio SS. All Rights Reserved.
