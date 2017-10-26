@@ -1,8 +1,6 @@
-# electron-app-with-materializecss
+# Electron app with MaterializeCSS
 
 I use this as a starting point for electron apps with nice material design components from materializecss, with some ideas from [electron-quick-start](https://github.com/electron/electron-quick-start) and [Electralize](https://github.com/CBinet/Electralize).
-
----------------------------------------
 
 ## License
 
